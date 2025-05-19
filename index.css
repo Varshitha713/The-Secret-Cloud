@@ -5,6 +5,9 @@ html,body{
   background-color: #eef0f4;
 }
 
+img{
+  width:180px;
+}
 .container{
   display: flex;
   flex-direction: column;
@@ -12,7 +15,7 @@ html,body{
   align-items: center;
   height: 100vh;
   text-align: center;
-  gap: 20px;
+  gap: 1px;
 }
 ul{
  width:350px;
@@ -28,8 +31,21 @@ ul{
 button {
    cursor:pointer;
    user-select: none;
+   font-size: 20px;
+   margin-top:10px;
    
 }
 button:hover{
-   background-color: #e39852;
+   background-color: #eaa25f;
+  }
+  .container-2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+  }
+.submit {
+font-size: 20x;
+border-radius: 8px;
   }
